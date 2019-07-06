@@ -8,9 +8,9 @@ class Main:
 	def menu(self):
 		print("""
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-		;       S P A M  S M S      ;
+		;       SHYNOORV      ;
 		;---------------------------;
-		; Author : MRB12IN          ;
+		; Author : SHYBOORV          ;
 		; Contact : VK.COM/mrb12in  ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -25,7 +25,7 @@ kang-newbie это логин на большинстве сайтов с кот
 Поделись сервисом с друзьями!
 """)
 		pilih=int(input('/mrb12in: '))
-		if pilih == 1:
+		elif pilih == 1:
 			import src.sms
 		elif pilih == 2:
 			import src.grab
@@ -34,6 +34,9 @@ kang-newbie это логин на большинстве сайтов с кот
 		elif pilih == 4:
 			import src.oyo
 		elif pilih == 5:
+			import src.apaaja
+		elif pilih == 6:
+			import src.wayaayayay
 			print("""
 		;;;;;;;;;;;;;;;;;;;
 		; Spam TelkomNyet ;
